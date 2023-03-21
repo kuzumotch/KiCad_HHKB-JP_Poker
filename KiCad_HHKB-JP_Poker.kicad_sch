@@ -2901,9 +2901,6 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5d2"
       (reference "K_#9") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff82"
-      (reference "K_'1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bef"
       (reference "K_,1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
@@ -2916,17 +2913,26 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c09"
       (reference "K_/1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff82"
+      (reference "K_:1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff75"
       (reference "K_;1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5f9"
       (reference "K_=1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fea5"
+      (reference "K_@1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff00"
       (reference "K_A1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bc8"
       (reference "K_B1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fad7e11"
+      (reference "K_BKSPC1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bae"
       (reference "K_C1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
@@ -3003,7 +3009,7 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe98"
       (reference "K_P1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47febf"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f606"
       (reference "K_PIPE1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe23"
@@ -3023,12 +3029,6 @@
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff0d"
       (reference "K_S1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f606"
-      (reference "K_SBSPC1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fad7e11"
-      (reference "K_SBSPC2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe57"
       (reference "K_T1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
@@ -3063,11 +3063,11 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497b94"
       (reference "K_Z1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fea5"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47feb2"
       (reference "K_[1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47feb2"
-      (reference "K_]1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47febf"
+      (reference "K_]2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-000060f78093"
       (reference "L1") (unit 1) (value "60R@100MHz") (footprint "Inductor_SMD:L_1206_3216Metric")
