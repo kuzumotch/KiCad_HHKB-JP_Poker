@@ -15,4 +15,4 @@ GH60-compatible JIS-like hotswap keyboard PCB
 
  
 [配列データ / Layout data](hhttp://www.keyboard-layout-editor.com/#/gists/5ac90f0792192c119a41c317cfdb1084)  
-![Layout Image](https://github.com/kuzumotch/blob/main/Assets/Layout.png)  
+![Layout Image](https://github.com/kuzumotch/KiCad_HHKB-JP_Poker/blob/main/Assets/Layout.png)  
