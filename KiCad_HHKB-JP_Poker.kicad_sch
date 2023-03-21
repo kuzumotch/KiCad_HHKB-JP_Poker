@@ -2760,10 +2760,10 @@
       (reference "K_LALT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c57"
-      (reference "K_LCTRL1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
+      (reference "K_LCTRL1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497b7a"
-      (reference "K_LSFT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2.25U-Hotswap")
+      (reference "K_LSFT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/1ef0d427-de6f-4a84-9a45-e41f4820a2ef"
       (reference "K_LSPACE1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
@@ -2775,7 +2775,7 @@
       (reference "K_N1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-000060ee8a21"
-      (reference "K_NHENK1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
+      (reference "K_NHENK1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe8b"
       (reference "K_O1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
@@ -2814,7 +2814,7 @@
       (reference "K_SRSFT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c16"
-      (reference "K_SRSFT2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.75U-Hotswap")
+      (reference "K_SRSFT2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe57"
       (reference "K_T1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
