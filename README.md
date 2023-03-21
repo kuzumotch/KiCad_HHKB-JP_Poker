@@ -13,7 +13,6 @@ GH60-compatible JIS-like hotswap keyboard PCB
 - GH60対応の60％ケースで使用可能 / Compatible with GH60 standard cases  
 - 一般的なキーサイズのみの日本語入力配列なので、GMKやePBTなどの標準キーキャップセットを使用可能 / Features a JIS-like key layout using standard keycap sizes   
 
-<!-- 
-[配列データ / Layout data](http://www.keyboard-layout-editor.com/#/gists/8acf5e6dbc672aa6a96d8ddba1245e7f)  
-![Layout Image](https://github.com/ai03-2725/JP60/blob/main/Assets/Layout.png)  
--->
+ 
+[配列データ / Layout data](hhttp://www.keyboard-layout-editor.com/#/gists/5ac90f0792192c119a41c317cfdb1084)  
+![Layout Image](https://github.com/kuzumotch/blob/main/Assets/Layout.png)  
