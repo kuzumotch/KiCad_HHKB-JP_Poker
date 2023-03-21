@@ -2354,14 +2354,14 @@
     (pin "1" (uuid 6e71d89a-5aa8-48b9-a24c-a6eb8450e187))
   )
 
-  (sheet (at 215.9 108.585) (size 26.67 24.765) (fields_autoplaced)
+  (sheet (at 187.325 109.855) (size 26.67 24.765) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005a286589)
-    (property "Sheet name" "matrix" (id 0) (at 215.9 107.7464 0)
+    (property "Sheet name" "matrix" (id 0) (at 187.325 109.0164 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
-    (property "Sheet file" "matrix.kicad_sch" (id 1) (at 215.9 134.0362 0)
+    (property "Sheet file" "matrix.kicad_sch" (id 1) (at 187.325 135.3062 0)
       (effects (font (size 1.524 1.524)) (justify left top))
     )
   )
@@ -2480,10 +2480,10 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff06"
       (reference "D9") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-000060eead43"
+    (path "/00000000-0000-0000-0000-00005a286589/c5212977-2a89-457f-9cd7-ff57379b72b3"
       (reference "D10") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005faa46ad"
+    (path "/00000000-0000-0000-0000-00005a286589/636e8c86-311a-4d32-9d49-68188313c166"
       (reference "D11") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f57d"
@@ -2561,6 +2561,9 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bce"
       (reference "D36") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
+    (path "/00000000-0000-0000-0000-00005a286589/c4f8b622-036c-4c4e-a477-44a007332937"
+      (reference "D37") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5be"
       (reference "D38") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
@@ -2573,8 +2576,11 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bdb"
       (reference "D41") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497cb8"
+    (path "/00000000-0000-0000-0000-00005a286589/681f0acc-74d9-4353-b7dd-8e246d77ba91"
       (reference "D42") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/65525a24-577a-4454-8197-3f3f2409802c"
+      (reference "D43") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5cb"
       (reference "D44") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
@@ -2735,6 +2741,9 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff41"
       (reference "K_H1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/00000000-0000-0000-0000-00005a286589/d3ebf770-4bd2-467a-989e-abeefc1a0471"
+      (reference "K_HENK1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe7e"
       (reference "K_I1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
@@ -2753,11 +2762,11 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c57"
       (reference "K_LCTRL1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005faa46a7"
-      (reference "K_LGUI1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497b7a"
       (reference "K_LSFT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2.25U-Hotswap")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/1ef0d427-de6f-4a84-9a45-e41f4820a2ef"
+      (reference "K_LSPACE1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497be2"
       (reference "K_M1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
@@ -2766,7 +2775,7 @@
       (reference "K_N1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-000060ee8a21"
-      (reference "K_NFER1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
+      (reference "K_NHENK1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe8b"
       (reference "K_O1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
@@ -2789,6 +2798,9 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fb9a858"
       (reference "K_RGUI1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/00000000-0000-0000-0000-00005a286589/159bf2bd-c3fa-4f3a-b40f-5928930f486e"
+      (reference "K_RSPACE1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
+    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff0d"
       (reference "K_S1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
@@ -2797,12 +2809,6 @@
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fad7e11"
       (reference "K_SBSPC2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497cb2"
-      (reference "K_SPC1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-6U-Centered-Hotswap-ReversedStabilizers")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-000060f7c6e2"
-      (reference "K_SPC2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fb7e4d3"
       (reference "K_SRSFT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
@@ -2819,17 +2825,20 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe71"
       (reference "K_U1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/00000000-0000-0000-0000-00005a286589/2509ecc1-7b87-4597-b2e5-0d72327a0dc3"
+      (reference "K_UpArr1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bbb"
       (reference "K_V1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe30"
       (reference "K_W1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/00000000-0000-0000-0000-00005a286589/2ffb9f99-9170-4eb4-9f63-3cbdacafa95b"
+      (reference "K_WIN1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497ba1"
       (reference "K_X1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-000060eead3d"
-      (reference "K_XFER1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe64"
       (reference "K_Y1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
