@@ -1515,10 +1515,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "COL1" (shape input) (at 93.345 127 0) (fields_autoplaced)
+  (global_label "COL1" (shape input) (at 76.2 134.62 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid 445932ef-1c6c-4d6f-9498-8fd488fc9212)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 101.9396 126.9048 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 84.7946 134.5248 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
   )
@@ -1627,10 +1627,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "COL0" (shape input) (at 93.98 123.825 0) (fields_autoplaced)
+  (global_label "COL0" (shape input) (at 76.2 132.08 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid baf097b4-ce1c-424f-839c-a63c5832a466)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 102.5746 123.7298 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 84.7946 131.9848 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
   )
@@ -1666,7 +1666,7 @@
   (symbol (lib_id "Device:C_Small") (at 108.585 179.705 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d34169c)
-    (property "Reference" "C1" (id 0) (at 110.9218 178.5366 0)
+    (property "Reference" "C4" (id 0) (at 110.9218 178.5366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 110.9218 180.848 0)
@@ -1685,7 +1685,7 @@
   (symbol (lib_id "power:+5V") (at 73.66 29.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d8b506e)
-    (property "Reference" "#PWR0103" (id 0) (at 73.66 33.02 0)
+    (property "Reference" "#PWR014" (id 0) (at 73.66 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 74.041 24.8158 0))
@@ -1701,7 +1701,7 @@
   (symbol (lib_id "Device:C_Small") (at 118.11 179.705 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb51d92)
-    (property "Reference" "C2" (id 0) (at 120.4468 178.5366 0)
+    (property "Reference" "C5" (id 0) (at 120.4468 178.5366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 120.4468 180.848 0)
@@ -1720,7 +1720,7 @@
   (symbol (lib_id "Device:C_Small") (at 127.635 179.705 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb52230)
-    (property "Reference" "C3" (id 0) (at 129.9718 178.5366 0)
+    (property "Reference" "C6" (id 0) (at 129.9718 178.5366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 129.9718 180.848 0)
@@ -1736,13 +1736,13 @@
     (pin "2" (uuid a9789b73-dc63-47fe-9e56-1f4d4a261630))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 137.16 179.705 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 137.16 179.705 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb52779)
-    (property "Reference" "C4" (id 0) (at 139.4968 178.5366 0)
+    (property "Reference" "C7" (id 0) (at 134.8232 178.5366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (id 1) (at 139.4968 180.848 0)
+    (property "Value" "10uF" (id 1) (at 134.8232 180.848 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 137.16 179.705 0)
@@ -1758,7 +1758,7 @@
   (symbol (lib_id "power:GND") (at 141.605 182.245 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb52e18)
-    (property "Reference" "#PWR0101" (id 0) (at 141.605 188.595 0)
+    (property "Reference" "#PWR024" (id 0) (at 141.605 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 141.732 186.6392 0))
@@ -1795,7 +1795,7 @@
   (symbol (lib_id "Device:C_Small") (at 28.575 104.14 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb56fb8)
-    (property "Reference" "C5" (id 0) (at 29.7434 106.4768 0)
+    (property "Reference" "C1" (id 0) (at 29.7434 106.4768 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (id 1) (at 27.432 106.4768 0)
@@ -1814,7 +1814,7 @@
   (symbol (lib_id "Device:C_Small") (at 28.575 109.22 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb57f24)
-    (property "Reference" "C6" (id 0) (at 29.7434 111.5568 0)
+    (property "Reference" "C2" (id 0) (at 29.7434 111.5568 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (id 1) (at 27.432 111.5568 0)
@@ -1833,7 +1833,7 @@
   (symbol (lib_id "power:GND") (at 26.035 113.665 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb597c1)
-    (property "Reference" "#PWR0102" (id 0) (at 26.035 120.015 0)
+    (property "Reference" "#PWR02" (id 0) (at 26.035 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 26.162 118.0592 0))
@@ -1849,7 +1849,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 119.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb5abcb)
-    (property "Reference" "#PWR0105" (id 0) (at 41.275 123.19 0)
+    (property "Reference" "#PWR04" (id 0) (at 41.275 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 41.656 114.9858 0))
@@ -1880,7 +1880,7 @@
   (symbol (lib_id "Device:R_Small") (at 38.1 127 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb5c8b4)
-    (property "Reference" "R3" (id 0) (at 38.1 122.0216 90))
+    (property "Reference" "R2" (id 0) (at 38.1 122.0216 90))
     (property "Value" "22" (id 1) (at 38.1 124.333 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 38.1 127 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1895,7 +1895,7 @@
   (symbol (lib_id "Device:C_Small") (at 41.275 134.62 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb5fa23)
-    (property "Reference" "C7" (id 0) (at 38.9382 135.7884 0)
+    (property "Reference" "C3" (id 0) (at 38.9382 135.7884 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 38.9382 133.477 0)
@@ -1914,7 +1914,7 @@
   (symbol (lib_id "power:GND") (at 41.275 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb61389)
-    (property "Reference" "#PWR0106" (id 0) (at 41.275 144.78 0)
+    (property "Reference" "#PWR05" (id 0) (at 41.275 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 41.402 142.8242 0))
@@ -1930,7 +1930,7 @@
   (symbol (lib_id "power:GND") (at 50.165 182.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb6260a)
-    (property "Reference" "#PWR0108" (id 0) (at 50.165 189.23 0)
+    (property "Reference" "#PWR09" (id 0) (at 50.165 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 50.292 187.2742 0))
@@ -1946,7 +1946,7 @@
   (symbol (lib_id "power:+5V") (at 58.42 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb63d21)
-    (property "Reference" "#PWR0109" (id 0) (at 58.42 92.71 0)
+    (property "Reference" "#PWR011" (id 0) (at 58.42 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 58.801 84.5058 0))
@@ -1962,7 +1962,7 @@
   (symbol (lib_id "Device:R_Small") (at 90.17 152.4 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb65343)
-    (property "Reference" "R4" (id 0) (at 90.17 147.4216 90))
+    (property "Reference" "R6" (id 0) (at 90.17 147.4216 90))
     (property "Value" "1k" (id 1) (at 90.17 149.733 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 90.17 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1977,7 +1977,7 @@
   (symbol (lib_id "power:GND") (at 95.25 152.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb664e2)
-    (property "Reference" "#PWR0110" (id 0) (at 95.25 158.75 0)
+    (property "Reference" "#PWR015" (id 0) (at 95.25 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 95.377 156.7942 0))
@@ -1993,7 +1993,7 @@
   (symbol (lib_id "power:+5V") (at 102.235 177.165 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fbb66b0)
-    (property "Reference" "#PWR0111" (id 0) (at 102.235 180.975 0)
+    (property "Reference" "#PWR018" (id 0) (at 102.235 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 102.616 172.7708 0))
@@ -2082,7 +2082,7 @@
   (symbol (lib_id "Device:R_Small") (at 41.91 93.345 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc785cc)
-    (property "Reference" "R5" (id 0) (at 43.4086 92.1766 0)
+    (property "Reference" "R3" (id 0) (at 43.4086 92.1766 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (id 1) (at 43.4086 94.488 0)
@@ -2101,7 +2101,7 @@
   (symbol (lib_id "power:+5V") (at 41.91 89.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc7a580)
-    (property "Reference" "#PWR0107" (id 0) (at 41.91 93.345 0)
+    (property "Reference" "#PWR06" (id 0) (at 41.91 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 42.291 85.1408 0))
@@ -2117,7 +2117,7 @@
   (symbol (lib_id "power:GND") (at 22.86 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc7ac27)
-    (property "Reference" "#PWR0112" (id 0) (at 22.86 105.41 0)
+    (property "Reference" "#PWR01" (id 0) (at 22.86 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 22.987 103.4542 0))
@@ -2184,7 +2184,7 @@
   (symbol (lib_id "power:Earth") (at 40.005 57.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f0c011)
-    (property "Reference" "#PWR0104" (id 0) (at 40.005 63.5 0)
+    (property "Reference" "#PWR03" (id 0) (at 40.005 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 40.005 60.96 0)
@@ -2202,7 +2202,7 @@
   (symbol (lib_id "power:GND") (at 45.085 57.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f0e208)
-    (property "Reference" "#PWR0113" (id 0) (at 45.085 63.5 0)
+    (property "Reference" "#PWR07" (id 0) (at 45.085 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 45.212 61.5442 0))
@@ -2233,7 +2233,7 @@
   (symbol (lib_id "power:VCC") (at 49.53 29.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f1500c)
-    (property "Reference" "#PWR0114" (id 0) (at 49.53 33.02 0)
+    (property "Reference" "#PWR08" (id 0) (at 49.53 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 49.9618 24.8158 0))
@@ -2249,7 +2249,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 59.69 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f180e3)
-    (property "Reference" "R2" (id 0) (at 51.0286 58.5216 0)
+    (property "Reference" "R4" (id 0) (at 51.0286 58.5216 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (id 1) (at 51.0286 60.833 0)
@@ -2268,7 +2268,7 @@
   (symbol (lib_id "Device:R_Small") (at 57.15 59.69 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f18c4a)
-    (property "Reference" "R6" (id 0) (at 58.6486 58.5216 0)
+    (property "Reference" "R5" (id 0) (at 58.6486 58.5216 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (id 1) (at 58.6486 60.833 0)
@@ -2287,7 +2287,7 @@
   (symbol (lib_id "Device:D_TVS") (at 67.31 46.99 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f249f5)
-    (property "Reference" "D32" (id 0) (at 69.3166 45.8216 90)
+    (property "Reference" "D1" (id 0) (at 69.3166 45.8216 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMF6.0CA" (id 1) (at 69.3166 48.133 90)
@@ -2306,7 +2306,7 @@
   (symbol (lib_id "power:GND") (at 53.34 64.135 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f28434)
-    (property "Reference" "#PWR0115" (id 0) (at 53.34 70.485 0)
+    (property "Reference" "#PWR010" (id 0) (at 53.34 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 53.467 68.5292 0))
@@ -2322,7 +2322,7 @@
   (symbol (lib_id "power:GND") (at 67.31 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f2a571)
-    (property "Reference" "#PWR0120" (id 0) (at 67.31 57.15 0)
+    (property "Reference" "#PWR012" (id 0) (at 67.31 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 67.437 55.1942 0))
@@ -2338,7 +2338,7 @@
   (symbol (lib_id "power:GND") (at 71.755 59.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f2b593)
-    (property "Reference" "#PWR0116" (id 0) (at 71.755 65.405 0)
+    (property "Reference" "#PWR013" (id 0) (at 71.755 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 71.882 63.4492 0))
@@ -2354,7 +2354,7 @@
   (symbol (lib_id "power:VCC") (at 99.06 59.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f35aad)
-    (property "Reference" "#PWR0117" (id 0) (at 99.06 62.865 0)
+    (property "Reference" "#PWR016" (id 0) (at 99.06 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 99.4918 54.6608 0))
@@ -2385,7 +2385,7 @@
   (symbol (lib_id "power:Earth") (at 100.33 32.385 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f7c40d)
-    (property "Reference" "#PWR0118" (id 0) (at 100.33 38.735 0)
+    (property "Reference" "#PWR017" (id 0) (at 100.33 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 100.33 36.195 0)
@@ -2403,7 +2403,7 @@
   (symbol (lib_id "power:GND") (at 105.41 32.385 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f83785)
-    (property "Reference" "#PWR0119" (id 0) (at 105.41 38.735 0)
+    (property "Reference" "#PWR019" (id 0) (at 105.41 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 105.537 36.7792 0))
@@ -2419,7 +2419,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 127 149.225 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3d93520f-146f-4b71-99c3-e97e6544b14c)
-    (property "Reference" "#FLG0103" (id 0) (at 127 147.32 0)
+    (property "Reference" "#FLG03" (id 0) (at 127 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 127 142.24 0))
@@ -2435,7 +2435,7 @@
   (symbol (lib_id "power:VCC") (at 135.255 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 454265f8-786b-4631-83f9-93f9664bd3d7)
-    (property "Reference" "#PWR0122" (id 0) (at 135.255 153.035 0)
+    (property "Reference" "#PWR023" (id 0) (at 135.255 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 135.255 144.145 0))
@@ -2451,7 +2451,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 112.395 149.225 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5a28b046-d110-4c80-8f56-cf1fab1007c7)
-    (property "Reference" "#FLG0104" (id 0) (at 112.395 147.32 0)
+    (property "Reference" "#FLG01" (id 0) (at 112.395 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 112.395 142.24 0))
@@ -2467,7 +2467,7 @@
   (symbol (lib_id "power:Earth") (at 118.745 149.225 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5dc88276-491c-4d83-a2db-3b5065ffadb1)
-    (property "Reference" "#PWR0124" (id 0) (at 118.745 155.575 0)
+    (property "Reference" "#PWR020" (id 0) (at 118.745 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 118.745 144.145 0))
@@ -2483,7 +2483,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 112.395 154.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6fccdc24-6ea0-4ac5-a385-02f576e001d1)
-    (property "Reference" "#FLG0102" (id 0) (at 112.395 153.035 0)
+    (property "Reference" "#FLG02" (id 0) (at 112.395 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 112.395 159.385 0))
@@ -2499,7 +2499,7 @@
   (symbol (lib_id "power:GND") (at 118.745 154.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8e0677e2-f091-463e-8505-19ab2f723c3e)
-    (property "Reference" "#PWR0123" (id 0) (at 118.745 161.29 0)
+    (property "Reference" "#PWR021" (id 0) (at 118.745 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 118.745 161.29 0))
@@ -2515,7 +2515,7 @@
   (symbol (lib_id "power:+5V") (at 134.62 156.845 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 925367fe-4048-4858-a574-0886094d7058)
-    (property "Reference" "#PWR0121" (id 0) (at 134.62 160.655 0)
+    (property "Reference" "#PWR022" (id 0) (at 134.62 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 134.62 161.29 0))
@@ -2531,7 +2531,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 127 156.845 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e8223fac-5e7b-45b4-b4a7-6ae8479d7807)
-    (property "Reference" "#FLG0101" (id 0) (at 127 154.94 0)
+    (property "Reference" "#FLG04" (id 0) (at 127 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 127 159.385 0))
@@ -2562,113 +2562,113 @@
   )
 
   (symbol_instances
-    (path "/e8223fac-5e7b-45b4-b4a7-6ae8479d7807"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/5a28b046-d110-4c80-8f56-cf1fab1007c7"
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/6fccdc24-6ea0-4ac5-a385-02f576e001d1"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/3d93520f-146f-4b71-99c3-e97e6544b14c"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/5a28b046-d110-4c80-8f56-cf1fab1007c7"
-      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fb52e18"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fb597c1"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005d8b506e"
-      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060f0c011"
-      (reference "#PWR0104") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fb5abcb"
-      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fb61389"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fc7a580"
-      (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fb6260a"
-      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fb63d21"
-      (reference "#PWR0109") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fb664e2"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fbb66b0"
-      (reference "#PWR0111") (unit 1) (value "+5V") (footprint "")
+    (path "/e8223fac-5e7b-45b4-b4a7-6ae8479d7807"
+      (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fc7ac27"
-      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fb597c1"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060f0c011"
+      (reference "#PWR03") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fb5abcb"
+      (reference "#PWR04") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fb61389"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fc7a580"
+      (reference "#PWR06") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060f0e208"
-      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060f1500c"
-      (reference "#PWR0114") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR08") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fb6260a"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060f28434"
-      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060f2b593"
-      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060f35aad"
-      (reference "#PWR0117") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060f7c40d"
-      (reference "#PWR0118") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060f83785"
-      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-00005fb63d21"
+      (reference "#PWR011") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060f2a571"
-      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
-    (path "/925367fe-4048-4858-a574-0886094d7058"
-      (reference "#PWR0121") (unit 1) (value "+5V") (footprint "")
+    (path "/00000000-0000-0000-0000-000060f2b593"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
-    (path "/454265f8-786b-4631-83f9-93f9664bd3d7"
-      (reference "#PWR0122") (unit 1) (value "VCC") (footprint "")
+    (path "/00000000-0000-0000-0000-00005d8b506e"
+      (reference "#PWR014") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/8e0677e2-f091-463e-8505-19ab2f723c3e"
-      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-00005fb664e2"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060f35aad"
+      (reference "#PWR016") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060f7c40d"
+      (reference "#PWR017") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fbb66b0"
+      (reference "#PWR018") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060f83785"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
     (path "/5dc88276-491c-4d83-a2db-3b5065ffadb1"
-      (reference "#PWR0124") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR020") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005d34169c"
-      (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/8e0677e2-f091-463e-8505-19ab2f723c3e"
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005fb51d92"
-      (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/925367fe-4048-4858-a574-0886094d7058"
+      (reference "#PWR022") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005fb52230"
-      (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/454265f8-786b-4631-83f9-93f9664bd3d7"
+      (reference "#PWR023") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005fb52779"
-      (reference "C4") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-00005fb52e18"
+      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fb56fb8"
-      (reference "C5") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C1") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005fb57f24"
-      (reference "C6") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C2") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005fb5fa23"
-      (reference "C7") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C3") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-000060ee8a27"
-      (reference "D1") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005d34169c"
+      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fb51d92"
+      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fb52230"
+      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fb52779"
+      (reference "C7") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060f249f5"
+      (reference "D1") (unit 1) (value "SMF6.0CA") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f563"
       (reference "D2") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
@@ -2694,179 +2694,179 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff06"
       (reference "D9") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/c5212977-2a89-457f-9cd7-ff57379b72b3"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497b9a"
       (reference "D10") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/636e8c86-311a-4d32-9d49-68188313c166"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f57d"
       (reference "D11") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f57d"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe36"
       (reference "D12") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe36"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff13"
       (reference "D13") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff13"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497ba7"
       (reference "D14") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497b9a"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c77"
       (reference "D15") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c77"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f58a"
       (reference "D16") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fad7e17"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe43"
       (reference "D17") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f58a"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff20"
       (reference "D18") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe43"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bb4"
       (reference "D19") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff20"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-000060ee8a27"
       (reference "D20") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497ba7"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f597"
       (reference "D21") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fb7e4d9"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe50"
       (reference "D22") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f597"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff2d"
       (reference "D23") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe50"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bc1"
       (reference "D24") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff2d"
+    (path "/00000000-0000-0000-0000-00005a286589/c5212977-2a89-457f-9cd7-ff57379b72b3"
       (reference "D25") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bb4"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5a4"
       (reference "D26") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fb9a85e"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe5d"
       (reference "D27") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5a4"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff3a"
       (reference "D28") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe5d"
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bce"
       (reference "D29") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff3a"
+    (path "/00000000-0000-0000-0000-00005a286589/636e8c86-311a-4d32-9d49-68188313c166"
       (reference "D30") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bc1"
+    (path "/00000000-0000-0000-0000-00005a286589/c4f8b622-036c-4c4e-a477-44a007332937"
       (reference "D31") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-000060f249f5"
-      (reference "D32") (unit 1) (value "SMF6.0CA") (footprint "Diode_SMD:D_SOD-123")
-    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5b1"
-      (reference "D33") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D32") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe6a"
-      (reference "D34") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D33") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff47"
-      (reference "D35") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bce"
-      (reference "D36") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/c4f8b622-036c-4c4e-a477-44a007332937"
-      (reference "D37") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5be"
-      (reference "D38") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe77"
-      (reference "D39") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff54"
-      (reference "D40") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D34") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bdb"
-      (reference "D41") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D35") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/681f0acc-74d9-4353-b7dd-8e246d77ba91"
-      (reference "D42") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D36") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/65525a24-577a-4454-8197-3f3f2409802c"
-      (reference "D43") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5be"
+      (reference "D37") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5cb"
-      (reference "D44") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe77"
+      (reference "D38") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe84"
-      (reference "D45") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff61"
-      (reference "D46") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff54"
+      (reference "D39") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497be8"
-      (reference "D47") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D40") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5d8"
-      (reference "D49") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5cb"
+      (reference "D41") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe91"
-      (reference "D50") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe84"
+      (reference "D42") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff6e"
-      (reference "D51") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff61"
+      (reference "D43") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bf5"
-      (reference "D52") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D44") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5e5"
-      (reference "D54") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5d8"
+      (reference "D45") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe9e"
-      (reference "D55") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe91"
+      (reference "D46") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff7b"
-      (reference "D56") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff6e"
+      (reference "D47") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c02"
-      (reference "D57") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D48") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5f2"
-      (reference "D59") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5e5"
+      (reference "D49") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47feab"
-      (reference "D60") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe9e"
+      (reference "D50") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff88"
-      (reference "D61") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff7b"
+      (reference "D51") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c0f"
-      (reference "D62") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D52") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5f2"
+      (reference "D53") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47feab"
+      (reference "D54") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ff88"
+      (reference "D55") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fb7e4d9"
+      (reference "D56") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497cec"
-      (reference "D63") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D57") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f5ff"
-      (reference "D65") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D58") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47feb8"
-      (reference "D66") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c1c"
-      (reference "D67") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f60c"
-      (reference "D70") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D59") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fec5"
-      (reference "D71") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D60") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/65525a24-577a-4454-8197-3f3f2409802c"
+      (reference "D61") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fb9a85e"
+      (reference "D62") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f60c"
+      (reference "D63") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fad7e17"
+      (reference "D64") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47ffa2"
-      (reference "D72") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D65") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c1c"
+      (reference "D66") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497d06"
-      (reference "D74") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D67") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-000060f123ed"
       (reference "F1") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_1206_3216Metric")
@@ -3067,7 +3067,7 @@
       (reference "K_[1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47febf"
-      (reference "K_]2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+      (reference "K_]1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-000060f78093"
       (reference "L1") (unit 1) (value "60R@100MHz") (footprint "Inductor_SMD:L_1206_3216Metric")
@@ -3075,20 +3075,20 @@
     (path "/00000000-0000-0000-0000-00005fb5ba35"
       (reference "R1") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000060f180e3"
-      (reference "R2") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-00005fb5c8b4"
-      (reference "R3") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005fb65343"
-      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R2") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005fc785cc"
-      (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060f180e3"
+      (reference "R4") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060f18c4a"
-      (reference "R6") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R5") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fb65343"
+      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005fc779a5"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
