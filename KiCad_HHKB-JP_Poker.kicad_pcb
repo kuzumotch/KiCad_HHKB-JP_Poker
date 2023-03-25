@@ -3977,7 +3977,7 @@
 
   (footprint "kuzumotch_icon:kuzumotch_icon" (layer "F.Cu")
     (tedit 0) (tstamp 7cf80c74-acb9-4f34-bb4a-cbc649a5be3f)
-    (at 163.83 256.54)
+    (at 336.804 256.794)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 16.51 17.78) (layer "F.SilkS")
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -9422,7 +9422,7 @@
   (gr_text "1.5U" (at 138.90625 203.99375) (layer "B.SilkS") (tstamp 2e7fd0fe-fac9-4c05-b8d0-3ccf30f0e09d)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "HHKB-JP_Poker | 20230325 | Kuzumotch" (at 143.51 265.43) (layer "B.SilkS") (tstamp 7995c58d-4171-4853-9d99-a21e1332a2ce)
+  (gr_text "KMKB-JP_Poker | 20230325 | Kuzumotch" (at 143.51 265.43) (layer "B.SilkS") (tstamp 7995c58d-4171-4853-9d99-a21e1332a2ce)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "1.75U" (at 141.2875 223.04375) (layer "B.SilkS") (tstamp 9e49b792-9166-46ec-9364-33055c8dc751)
@@ -9434,7 +9434,7 @@
   (gr_text "RESET" (at 181.36475 264.60075) (layer "B.SilkS") (tstamp b5111cb3-1b72-47a3-ba46-dedf5a25d775)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "HHKB-JP_Poker" (at 331.47 257.81) (layer "F.SilkS") (tstamp 9d2f486f-cb84-4918-9473-04acbf5ba2ac)
+  (gr_text "KMKB-JP_Poker" (at 164.592 257.048) (layer "F.SilkS") (tstamp 9d2f486f-cb84-4918-9473-04acbf5ba2ac)
     (effects (font (size 3 3) (thickness 0.75)))
   )
 
