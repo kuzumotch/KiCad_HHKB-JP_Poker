@@ -1578,13 +1578,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "COL14" (shape input) (at 90.17 177.165 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left))
-    (uuid 6c443bba-9765-4eb7-aa15-d0fea1939aca)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 100.216 177.0698 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-  )
   (global_label "COL5" (shape input) (at 91.44 140.97 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid 6dd4a7b8-b0ce-4f9b-bc42-da84cd8cb8ce)
@@ -2938,6 +2931,9 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497bc8"
       (reference "K_B1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fb7e4d3"
+      (reference "K_BKSL1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fad7e11"
       (reference "K_BKSPC1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
@@ -3016,9 +3012,6 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe98"
       (reference "K_P1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f606"
-      (reference "K_PIPE1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe23"
       (reference "K_Q1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
@@ -3046,9 +3039,6 @@
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe71"
       (reference "K_U1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005fb7e4d3"
-      (reference "K_UNSC1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
     (path "/00000000-0000-0000-0000-00005a286589/2509ecc1-7b87-4597-b2e5-0d72327a0dc3"
       (reference "K_UP1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
@@ -3066,6 +3056,9 @@
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d47fe64"
       (reference "K_Y1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
+    (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d45f606"
+      (reference "K_YEN1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497b94"
       (reference "K_Z1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
