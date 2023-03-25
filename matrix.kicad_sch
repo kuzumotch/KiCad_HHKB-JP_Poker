@@ -3537,7 +3537,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 233.8832 113.6904 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap" (id 2) (at 217.17 118.11 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 217.17 118.11 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 217.17 118.11 0)

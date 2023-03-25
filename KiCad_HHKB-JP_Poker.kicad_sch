@@ -3019,7 +3019,7 @@
       (reference "K_R1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497d00"
-      (reference "K_RIGHT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
+      (reference "K_RIGHT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/00000000-0000-0000-0000-00005a286589/00000000-0000-0000-0000-00005d497c16"
       (reference "K_RSFT1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
