@@ -1,0 +1,3 @@
+[submodule "TOP_Plate/Poker/Library/KiCAD_FootPrint"]
+	path = TOP_Plate/Poker/Library/KiCAD_FootPrint
+	url = https://github.com/Salicylic-acid3/KiCAD_FootPrint
