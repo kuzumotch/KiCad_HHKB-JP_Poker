@@ -347,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KiCad_HHKB-JP_Poker.kicad_pro",
+    "filename": "KMKB-JP_Poker_SwitchPlate.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -397,12 +397,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [
-          "+5V",
-          "Earth",
-          "GND",
-          "VCC"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
@@ -420,12 +415,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "nets": [
-          "D+",
-          "D-",
-          "USB+",
-          "USB-"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.261112,
