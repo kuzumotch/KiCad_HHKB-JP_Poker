@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "Type-C")(type "Legacy")(uri "${KIPRJMOD}/Library/Type-C.pretty/Type-C.lib")(options "")(descr ""))
+  (lib (name "ai03-locallib")(type "Legacy")(uri "${KIPRJMOD}/Library/locallib.pretty/schema/ai03-locallib.lib")(options "")(descr ""))
+  (lib (name "MX_Alps_Hybrid")(type "Legacy")(uri "${KIPRJMOD}/Library/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "Legacy")(uri "${KIPRJMOD}/Library/locallib.pretty/schema/logic.lib")(options "")(descr ""))
+  (lib (name "KiCad_HHKB-JP_Poker-rescue")(type "Legacy")(uri "${KIPRJMOD}/Library/KiCad_KMKB-JP_Poker-rescue.lib")(options "")(descr ""))
+)
